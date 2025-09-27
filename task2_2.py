@@ -1,9 +1,4 @@
-x=int(input())
-sam=1
-i=x
-if x>=0:
-    for i in (sam<=x, x-1):
-        sam*=x
-    print(sam)
-else:
-_
+a=int(input())
+b=int(input())
+for i in range(a, b+1):
+    print(i, end=" ")
