@@ -1,9 +1,11 @@
 x=int(input())
 sam=1
-i=x
-if x>=0:
-    for i in (sam<=x, x-1):
+
+if x>0:
+    while  x>0:
         sam*=x
-    print(sam)
+        x-=1
+        print(sam)
 else:
-_
+    print(1)
+
